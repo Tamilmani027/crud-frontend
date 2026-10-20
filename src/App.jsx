@@ -60,7 +60,7 @@ function App() {
         <button onClick={getUsers}>GET users</button>
         <button onClick={() => getUserById(2)}>GET user by ID</button>
         <button onClick={createUser}>POST user</button>
-        <button onClick={() => updateUser(5)}>PUT user</button>
+        <button onClick={() => updateUser(2)}>PUT user</button>
         <button onClick={() => deleteUser(1)}>DELETE user</button>
       </div>
     </>
